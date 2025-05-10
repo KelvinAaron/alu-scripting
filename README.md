@@ -1,1 +1,1 @@
-Repo to practice regular expressions
+Repo to practice alu scripting
