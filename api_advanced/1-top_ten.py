@@ -9,8 +9,8 @@ def top_ten(subreddit):
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code != 200:
-        ans = "OK"
-        return ans
+        print(None)
+        return "OK"
     posts = response.json()['data']['children']
     for post in posts:
         print(post['data']['title'])
